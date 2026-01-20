@@ -69,12 +69,15 @@ GET http://localhost:8080/students
 ```
 
 Devuelve todos los estudiantes almacenados.
+<img width="2168" height="840" alt="API1" src="https://github.com/user-attachments/assets/e95d9c93-17af-4531-9921-a26553d269e9" />
+
 
 ### Obtener estudiantes con nota mínima
 
 ```
 GET http://localhost:8080/students/top?min=7
 ```
+<img width="2166" height="780" alt="API2" src="https://github.com/user-attachments/assets/db762b9d-2dc7-4be9-8767-cef560596b59" />
 
 ---
 
