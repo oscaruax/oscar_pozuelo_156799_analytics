@@ -6,7 +6,7 @@ La aplicación **Student Analytics** carga información de estudiantes desde un 
 
 ---
 
-## 📌 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Java 21  
 - Spring Boot 3.2.1  
@@ -20,7 +20,7 @@ La aplicación **Student Analytics** carga información de estudiantes desde un 
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 - `batch` → Configuración y ejecución del proceso Spring Batch  
 - `model` → Entidad `Student`  
@@ -31,7 +31,7 @@ La aplicación **Student Analytics** carga información de estudiantes desde un 
 
 ---
 
-## ⚙️ Proceso Batch
+## Proceso Batch
 
 Al iniciar la aplicación se ejecuta automáticamente un **Job de Spring Batch** que:
 
@@ -52,7 +52,7 @@ id,name,averageGrade
 
 ---
 
-## 🧪 Base de datos
+## Base de datos
 
 - H2 en memoria  
 - Creación automática al arrancar  
@@ -60,7 +60,7 @@ id,name,averageGrade
 
 ---
 
-## 🔁 API Reactiva
+## API Reactiva
 
 ### Obtener todos los estudiantes
 
@@ -78,7 +78,7 @@ GET http://localhost:8080/students/top?min=7
 
 ---
 
-## 🌐 API Gateway y Microservicios
+## API Gateway y Microservicios
 
 La aplicación simula una arquitectura de microservicios:
 
@@ -92,13 +92,13 @@ GET http://localhost:8080/api/public/students
 
 ---
 
-## 🧾 Trazabilidad
+## Trazabilidad
 
 Cada petición genera un `traceId` que se registra en los logs, simulando trazabilidad distribuida.
 
 ---
 
-## ▶️ Ejecución del proyecto
+## Ejecución del proyecto
 
 1. Importar el proyecto como **Maven Project**
 2. Ejecutar la clase principal:
@@ -109,7 +109,7 @@ OscarPozuelo156799AnalyticsApplication
 
 ---
 
-## ✅ Funcionalidades implementadas
+## Funcionalidades implementadas
 
 - Proceso batch
 - Lectura de CSV
