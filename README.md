@@ -93,6 +93,8 @@ GET http://localhost:8080/api/public/students
 - Comunicación interna mediante `WebClient`
 - Circuit Breaker implementado con Resilience4j
 
+<img width="1558" height="160" alt="Prueba1" src="https://github.com/user-attachments/assets/ee19714e-bdd1-4f0c-9471-34eac3642e22" />
+
 ---
 
 ## Trazabilidad
